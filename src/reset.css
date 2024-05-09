@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--corPrincipal);
+    font-family: var(--fonteComum);
+}
+
+.container {
+    max-width: 768px;
+    font-family: var(--fonteComum);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+:root {
+    --corPrincipal: #FFC470;
+    --corSecundaria: #DD5746;
+    --corEscura: #8B322C;
+    --corDetalhe: #4793AF;
+    --fonteEspecial: "Pacifico", cursive;
+    --fonteComum: "League Spartan", sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--fonteEspecial);
+    margin-top: 2rem;
+    color: var(--corEscura);
+}

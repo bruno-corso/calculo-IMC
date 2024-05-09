@@ -1,0 +1,17 @@
+.resultado {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.valor {
+    background-color: var(--corDetalhe);
+    padding: 15px;
+    font-size: 3rem;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.analise {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
